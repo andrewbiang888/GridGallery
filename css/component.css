@@ -74,7 +74,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	z-index: 500;
+	z-index: 1000;
 	opacity: 0;
 	visibility: hidden;
 	overflow: hidden;
@@ -165,7 +165,7 @@
 /* Navigation */
 .slideshow nav span {
 	position: fixed;
-	z-index: 1000;
+	z-index: 1001;
 	color: #59656c;
 	text-align: center;
 	padding: 223px 3%;
@@ -219,7 +219,7 @@ span.nav-close:before {
 /* Info on arrow key navigation */
 .info-keys {
 	position: fixed;
-	top: 10px;
+	bottom: 10px;
 	left: 10px;
 	width: 60px;
 	font-size: 8px;
